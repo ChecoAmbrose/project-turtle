@@ -442,43 +442,56 @@
           </div>
         </div>
       </div>
+
+      <!-- Formulario y mapa -->
+
       <div class="row">
+
+        <!-- Formulario  -->
         <div class="span6">
           <h4><i class="icon-circled icon-32 icon-envelope"></i>Contacto</h4>
 
-          <!-- start contact form -->
-          <div id="sendmessage">Gracias! su mensaje ah sido enviado</div>
-          <div id="errormessage"></div>
 
-          <form action="" method="post" role="form" class="contactForm">
-            <div id="sendmessage">Gracias! su mensaje ah sido enviado</div>
-            <div id="errormessage"></div>
-
-            <ul class="contact-list">
-              <li class="form-group">
-                <input type="text" name="name" class="form_input" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                <div class="validation"></div>
-                <li class="form-group">
-                  <input type="email" class="form_input" name="email" id="email" placeholder="Su correo" data-rule="email" data-msg="Please enter a valid email">
-                  <div class="validation"></div>
-                </li>
-                <li class="form-group">
-                  <input type="text" class="form_input" name="subject" id="subject" placeholder="Servicio a cotizar" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
-                  <div class="validation"></div>
-                </li>
-
-                <li class="form-group">
-                  <textarea class="form_textarea" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Todo lo relacionado al servicio"></textarea>
-                  <div class="validation"></div>
-                </li>
-                <li class="last">
-                  <button class="btn btn-large btn-theme" type="submit" id="send">Enviar</button>
-                </li>
-            </ul>
+          <div class="ms1"> Pongase en contacto con nosotros</div>
+          <div class="ms2"> <br> Los campos con * al final son obligatorios, favor de completarlos</div>
+      
+          <form action="prose-form.php" method="POST">
+            <label class="labelform" for="nombre">
+              <input class="input1" type="text" name="nombre" id="nombre" required placeholder="Nombre*">
+            </label>
+              <label class="labelform" for="telefono">
+                <input class="input1" type="tel" name="telefono" id="telefono" required placeholder="Teléfono*">
+              </label>
+              <label class="labelform" for="correo">
+                <input class="input1" type="email" name="correo" id="correo" required placeholder="Correo*">
+              </label>
+            </label>
+            <label class="labelform" for="empresa">
+              <input class="input1" type="text" name="empresa" id="empresa" placeholder="Empresa">
+            </label>
+            <label class="labelform" for="comentario">
+              <textarea class="input2" type="text" name="comentario" id="comentario" placeholder="Comentarios"></textarea>
+            </label>
+      
+            <div class="ms3"> Si desea solicitar una oferta complete lo siguiente: <br></div>
+            
+            <label class="labelform" for="instrumentos">
+              <input class="input1" type="text" name="instrumentos" id="instrumentos" placeholder="Instrumentos">
+            </label>
+            <label class="labelform" for="descripcion">
+              <textarea class="input2" type="text" name="descripcion" id="descripcion" placeholder="Descripcion, intervalos de medida y peculiaridades."></textarea>
+            </label>
+      
+            <input type="submit">
           </form>
-          <!-- end contact form -->
+      
+          
+
 
         </div>
+
+
+        <!-- Mapa -->
         <div class="span6">
           <h4><i class="icon-circled icon-32 icon-user"></i>Texto</h4>
           <p>
@@ -502,7 +515,8 @@
       </div>
     </div>
   </section>
-  <!-- end section contact -->
+
+  <!-- Fin de la sección de contacto -->
 
 
   <footer>
