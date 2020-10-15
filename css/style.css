@@ -1546,5 +1546,9 @@ section#featured{
 	margin: 5px 0;
 	padding: 10px 10px;
 	box-sizing: border-box;
-	
+}
+
+.navigation
+{
+margin-top: 20px;
 }
