@@ -161,7 +161,7 @@ ul.nav li ul.dropdown-menu {
 
 .fixed {
   position: fixed;
-  background:#dbdbdb;
+  background:rgba(128, 194, 194, 0.349);
   top:0;
   left: 0;
   width: 100%;
@@ -970,7 +970,7 @@ section#bottom {
 footer{
 	float:left;
 	width:100%;
-	background:#dbdbdb;
+	background:#bfe0c7;
 	color:#000;
 	margin:0;
 	padding:40px 0 0 0;
