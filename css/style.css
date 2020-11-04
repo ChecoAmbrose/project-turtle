@@ -77,7 +77,7 @@ header{
 }
 
 .navbar {
-	padding:20px 0 20px;
+	padding:7px 0 7px;
 }
 
 .navbar .nav {
@@ -180,7 +180,7 @@ nav select {
 	opacity:1;
 }
 section {
-	padding:120px 0 40px 0;
+	padding:120px 0 20px 0;
 }
 
 /* ==== general main content style ==== */
@@ -970,10 +970,10 @@ section#bottom {
 footer{
 	float:left;
 	width:100%;
-	background:#bfe0c7;
+	background: rgba(160, 160, 160, 0.666);
 	color:#000;
 	margin:0;
-	padding:40px 0 0 0;
+	padding:0 0 0 0;
 }
 
 footer .verybottom {
