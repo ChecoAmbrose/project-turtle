@@ -161,7 +161,7 @@ ul.nav li ul.dropdown-menu {
 
 .fixed {
   position: fixed;
-  background:rgba(128, 194, 194, 0.349);
+  background:rgba(214, 214, 214, 0.800);
   top:0;
   left: 0;
   width: 100%;
@@ -557,7 +557,7 @@ ul.the-icons {
 /* ================= featured ========================== */
 
 section#featured {
-	background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	background: #000 url(../img/bg/bg-2.jpg)  0 no-repeat;
 	position:relative;
 	width:100%;
 	height:auto;
@@ -970,7 +970,7 @@ section#bottom {
 footer{
 	float:left;
 	width:100%;
-	background: rgba(160, 160, 160, 0.666);
+	background: rgba(214, 214, 214, 0.5);
 	color:#000;
 	margin:0;
 	padding:0 0 0 0;
