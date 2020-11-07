@@ -8,7 +8,7 @@
   margin: 0 auto;
   position: relative;
   margin: 0 auto;
-  margin-bottom:30px;
+  margin-bottom:10px;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   /* prevent graphical glitches in WebKit browsers when using transitions */
@@ -59,7 +59,7 @@
   position: absolute;
 }
 #sequence-theme #sequence {
-  min-height: 500px;
+  min-height: 750px;
   margin: 0 auto;
   position: relative;
   max-width: 1170px;
