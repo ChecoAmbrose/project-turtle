@@ -836,8 +836,9 @@ section#services {
 
 ul.filter {
 	margin:20px 0 40px 0;
-	float:left;
 	list-style:none;
+	display: flex;
+	justify-content: stretch;
 }
 
 ul.filter li{
