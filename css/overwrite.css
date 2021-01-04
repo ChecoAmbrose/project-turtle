@@ -61,6 +61,7 @@ p {
   font-size: 14px;
   line-height:1.6em;
   margin-bottom: 1em;
+  text-align: justify;
 }
 
 
@@ -88,11 +89,10 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'ostrich_sansblack';
-	line-height:1.1em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:0.8em;
 	color: #3a3a3a;
 	font-weight:300;
-	margin-bottom:10px;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1895,4 +1895,9 @@ a.thumbnail:hover {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+}
+
+.final
+{
+  text-align: center;
 }
