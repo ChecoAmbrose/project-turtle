@@ -156,12 +156,12 @@ ul.nav li ul.dropdown-menu {
 }
 
 .default {
-	background:url(../img/nav-default-bg.png) repeat;
+	background: rgb(245, 245, 245);
 }
 
 .fixed {
   position: fixed;
-  background:rgba(214, 214, 214, 0.800);
+  background:rgba(234, 234, 234, 0.95);
   top:0;
   left: 0;
   width: 100%;
